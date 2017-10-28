@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.colorapp.MainActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:text="Gold"
+        android:textSize="30dp"
+        android:background="@color/Gold"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:text="DarkBlue"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="@color/darkblue"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:text="DarkOrange"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="@color/darkorange"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:text="DarkPurple"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="@color/darkpurple"
+        android:textColor="@color/Gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+    android:layout_width="400dp"
+    android:layout_height="65dp"
+        android:layout_weight="1"
+    android:text="Red"
+        android:textSize="30dp"
+        android:textAlignment="center"
+    android:background="@color/red"
+    android:textColor="@color/black"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="Aqua"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/darkblue"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+
+        android:layout_weight="1"
+        android:text="Magenta"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="@color/Magenta"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:text="Lime"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="@color/lime"
+        android:textColor="@color/darkred"
+         />
+</LinearLayout>
